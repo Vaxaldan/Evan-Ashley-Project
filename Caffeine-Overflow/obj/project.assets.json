@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Evan\\.nuget\\packages\\": {}
+    "C:\\Users\\Owner\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
+      "projectUniqueName": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
       "projectName": "Caffeine-Overflow",
-      "projectPath": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
-      "packagesPath": "C:\\Users\\Evan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\obj\\",
+      "projectPath": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
+      "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Evan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
