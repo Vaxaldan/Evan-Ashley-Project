@@ -1,0 +1,5 @@
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.AssemblyInfoInputs.cache
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.AssemblyInfo.cs
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.csproj.CoreCompileInputs.cache
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.sourcelink.json

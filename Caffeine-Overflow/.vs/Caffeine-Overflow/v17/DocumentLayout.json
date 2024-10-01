@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\",
+  "WorkspaceRootPath": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|c:\\users\\owner\\c-bootcamp\\caffine-shop\\evan-ashley-project\\caffeine-overflow\\products-menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|c:\\users\\evan\\desktop\\grand-circus\\evan-ashley-project\\caffeine-overflow\\products-menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|solutionrelative:products-menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|c:\\users\\owner\\c-bootcamp\\caffine-shop\\evan-ashley-project\\caffeine-overflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|c:\\users\\evan\\desktop\\grand-circus\\evan-ashley-project\\caffeine-overflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|c:\\users\\owner\\c-bootcamp\\caffine-shop\\evan-ashley-project\\caffeine-overflow\\caffeine-overflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E0BBFAA8-5CB0-4CA5-8589-4F4CB234F7D7}|Caffeine-Overflow.csproj|solutionrelative:caffeine-overflow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,45 +34,36 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Caffeine-Overflow",
-              "DocumentMoniker": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
-              "RelativeDocumentMoniker": "Caffeine-Overflow.csproj",
-              "ToolTip": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Caffeine-Overflow.csproj",
-              "RelativeToolTip": "Caffeine-Overflow.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-09-28T21:36:42.957Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Products-Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Products-Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Products-Menu.cs",
               "RelativeDocumentMoniker": "Products-Menu.cs",
-              "ToolTip": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Products-Menu.cs",
+              "ToolTip": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Products-Menu.cs",
               "RelativeToolTip": "Products-Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA8AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwCAAAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T21:39:50.81Z",
+              "WhenOpened": "2024-10-01T00:33:59.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Owner\\C-bootcamp\\Caffine-Shop\\Evan-Ashley-Project\\Caffeine-Overflow\\Program.cs",
+              "ToolTip": "C:\\Users\\Evan\\Desktop\\Grand-Circus\\Evan-Ashley-Project\\Caffeine-Overflow\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T00:31:29.955Z",
+              "WhenOpened": "2024-10-01T00:33:59.238Z",
               "EditorCaption": ""
             }
           ]
