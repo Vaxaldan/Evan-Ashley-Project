@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,7 +30,14 @@ namespace Caffeine_Overflow
             return subTotal;
         }
 
-        public double CashPayment(double total, double amountTendered) // put subtotal method in as parameter
+        public double Total()  // Ask about how to set up a method as an intake, if not work on simplifying
+        {
+            double total = SubTotal() * 0.006;
+            return total;
+        }
+
+
+        public double CashPayment(double total, double amountTendered) // put total method in as parameter
         { 
             double change = amountTendered - total;
             return change;
@@ -94,12 +102,27 @@ namespace Caffeine_Overflow
                 break;
             }
             return $"Your payment for {cardNumber} is approved."; 
-
-
-
         }
-    }
+
+        public string Recipt() 
+        {
+           
+            // want this to take input from menu method to see what they order,
+            // subtotal and total to print the subtotal and the total and the tax,
+            // and to be able to take that into the payment method to be able to return a recipt 
+            
+            
+            string printRecipt = "";
+
+            return printRecipt;
+        }
+
+
+
+
+
+    } // end of class
 
    
     
-}
+} // end of namespace
