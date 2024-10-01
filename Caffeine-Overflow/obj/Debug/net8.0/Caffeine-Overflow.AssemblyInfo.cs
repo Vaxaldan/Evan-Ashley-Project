@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caffeine-Overflow")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab0da3b2a5ae4d51d791166e44521729184cd9d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+feaa5364a218489f4790e87b3abb91328a52ab9e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caffeine-Overflow")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caffeine-Overflow")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
