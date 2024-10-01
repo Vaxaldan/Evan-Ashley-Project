@@ -1,10 +1,11 @@
 ﻿namespace Caffeine_Overflow
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            CoffeeShop coffeeShop = new CoffeeShop();
+            coffeeShop.DisplayMenu();
         }
     }
 }
