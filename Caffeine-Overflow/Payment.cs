@@ -30,10 +30,9 @@ namespace Caffeine_Overflow
             return subTotal;
         }
 
-        public double Total()  // Ask about how to set up a method as an intake, if not work on simplifying
+        public double Total(double subTotal)  
         {
-            double total = SubTotal() * 0.006;
-            return total;
+            return subTotal * 0.06;
         }
 
 
@@ -104,17 +103,14 @@ namespace Caffeine_Overflow
             return $"Your payment for {cardNumber} is approved."; 
         }
 
-        public string Recipt() 
+        public static void Recipt(double subTotal, double total) 
         {
-           
-            // want this to take input from menu method to see what they order,
-            // subtotal and total to print the subtotal and the total and the tax,
-            // and to be able to take that into the payment method to be able to return a recipt 
-            
-            
-            string printRecipt = "";
-
-            return printRecipt;
+            Console.WriteLine("\n======= Receipt =======");
+            Console.WriteLine($"Subtotal:    {subTotal:C}");
+            Console.WriteLine($"Tax (0.6%):  {(total - subTotal):C}");
+            Console.WriteLine($"Total:       {total:C}");
+            Console.WriteLine("=======================");
+    
         }
 
 
