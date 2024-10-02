@@ -3,3 +3,13 @@ C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Deb
 C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.AssemblyInfo.cs
 C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.csproj.CoreCompileInputs.cache
 C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.sourcelink.json
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\bin\Debug\net8.0\Caffeine-Overflow.exe
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\bin\Debug\net8.0\Caffeine-Overflow.deps.json
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\bin\Debug\net8.0\Caffeine-Overflow.runtimeconfig.json
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\bin\Debug\net8.0\Caffeine-Overflow.dll
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\bin\Debug\net8.0\Caffeine-Overflow.pdb
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.dll
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\refint\Caffeine-Overflow.dll
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.pdb
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\Caffeine-Overflow.genruntimeconfig.cache
+C:\Users\Evan\Desktop\Grand-Circus\Evan-Ashley-Project\Caffeine-Overflow\obj\Debug\net8.0\ref\Caffeine-Overflow.dll
