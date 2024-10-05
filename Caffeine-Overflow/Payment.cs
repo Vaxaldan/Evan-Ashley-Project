@@ -10,107 +10,79 @@ namespace Caffeine_Overflow
 {
     public class Payment
     {
-        public double SubTotal()
+
+        public double CalculateTotal(double subTotal)  
         {
-            double subTotal;
+            return (subTotal * 0.06) + subTotal;
+        }
 
-            Console.WriteLine("Please enter the subtotal: ");
 
-            while (true)
+        public double CashPayment(double total, double amountTendered)
+        {
             {
-                subTotal = double.Parse(Console.ReadLine());
-                if (subTotal < 0)
+                if (amountTendered >= total)
                 {
-                    Console.WriteLine("Invalid input, please enter a positive numeric value.");
-                    Console.WriteLine("Enter the subtotal: ");
-                    continue;
+                    double change = amountTendered - total;
+                    Console.WriteLine($"Cash payment successful. Change: {change:C2}");
+                    return change;
                 }
-                break;
+                else
+                {
+                    Console.WriteLine("Insufficient cash provided. Payment failed.");
+                    return -1;  
+                }
             }
-            return subTotal;
         }
 
-        public double Total(double subTotal)  
+        public void CheckPayment(double total)
         {
-            return subTotal * 0.06;
-        }
+            Console.WriteLine("Please enter the check number (21 digits, numeric only):");
+            string checkNumber = Console.ReadLine();
 
-
-        public double CashPayment(double total, double amountTendered) // put total method in as parameter
-        { 
-            double change = amountTendered - total;
-            return change;
-        }
-
-        public string CheckPayment(double total)
-        {
-            string checkNumber = "";
-
-            Console.WriteLine("Please enter the check number (numeric value only)");
-
-            while (true)
+            while (string.IsNullOrEmpty(checkNumber) || checkNumber.Length != 21 || !long.TryParse(checkNumber, out _))
             {
+                Console.WriteLine("Invalid check number. Please enter a valid 21-digit check number:");
                 checkNumber = Console.ReadLine();
-                if (checkNumber.Length != 21)
-                {
-                    Console.WriteLine("Invalid input, please double check the check numbers");
-                    Console.WriteLine("Enter the check numbers");
-                    continue;
-                }
-                Console.WriteLine($"Check number {checkNumber} accepted for a total payment of {total}.");
-                break;
             }
-                return checkNumber;
-        }
-        public string CreditCardPayment(double total)
-        {
-            string cardNumber = "";
-            
-            Console.WriteLine("Please enter your 16 digit card number. (numeric value only)");
 
-            while (true)
+            Console.WriteLine($"Check number {checkNumber} accepted for a total payment of {total:C2}.");
+        }
+
+        public void CreditCardPayment(double total)
+        {
+            Console.WriteLine("Please enter your 16-digit card number:");
+            string cardNumber = Console.ReadLine();
+
+            while (string.IsNullOrEmpty(cardNumber) || cardNumber.Length != 16 || !long.TryParse(cardNumber, out _))
             {
+                Console.WriteLine("Invalid card number. Please enter a valid 16-digit card number:");
                 cardNumber = Console.ReadLine();
-                if (cardNumber.Length != 16)
-                {
-                    Console.WriteLine("Invalid card number.");
-                    Console.WriteLine("Please enter your 16 digit card number");
-                    continue;
-                }
-                break;
             }
-            
-            string expireDate = "";
-            
-            Console.WriteLine("Please enter your experation date. (MM/YY)"); //check that date is valid
-            expireDate = Console.ReadLine();
 
-            string cvv = "";
-           
-            Console.WriteLine("Please enter your CVV.");
+            Console.WriteLine("Please enter your expiration date (MM/YY):");
+            string expireDate = Console.ReadLine();
+            // Additional validation for expiration date could be added here
 
-            while (true)
+            Console.WriteLine("Please enter your CVV (3 digits):");
+            string cvv = Console.ReadLine();
+
+            while (string.IsNullOrEmpty(cvv) || cvv.Length != 3 || !int.TryParse(cvv, out _))
             {
+                Console.WriteLine("Invalid CVV. Please enter a valid 3-digit CVV:");
                 cvv = Console.ReadLine();
-                if (cvv.Length != 3)
-                {
-                    Console.WriteLine("Invalid CVV.");
-                    Console.WriteLine("Re-enter your CVV.");
-                    continue;
-                }
-                break;
             }
-            return $"Your payment for {cardNumber} is approved."; 
+
+            Console.WriteLine($"Credit card payment for {total:C2} is approved.");
         }
 
-        public static void Recipt(double subTotal, double total) 
+        public static void Receipt(double subTotal, double total)
         {
+            double tax = total - subTotal;
             Console.WriteLine("\n======= Receipt =======");
-            Console.WriteLine($"Subtotal:    {subTotal:C}");
-            Console.WriteLine($"Tax (0.6%):  {(total - subTotal):C}");
-            Console.WriteLine($"Total:       {total:C}");
+            Console.WriteLine($"Subtotal:    {subTotal:C2}");
+            Console.WriteLine($"Tax (6%):    {tax:C2}");
+            Console.WriteLine($"Total:       {total:C2}");
             Console.WriteLine("=======================");
-    
         }
 
 

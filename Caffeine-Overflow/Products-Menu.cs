@@ -115,11 +115,13 @@ public class OrderManager
 {
     private Menu menu;
     private Order currentOrder;
+    private Payment payment;
 
     public OrderManager(Menu menu)
     {
         this.menu = menu;
         currentOrder = new Order();
+        payment = new Payment();
     }
 
     public void TakeOrder()
@@ -161,32 +163,40 @@ public class OrderManager
 
     private void ProcessPayment()
     {
-        Payment payment = new Payment();
+        double subTotal = currentOrder.SubTotal;
+        double total = payment.CalculateTotal(subTotal);
 
-        double subTotal = currentOrder.SubTotal;  // Use subtotal from order
-        double tax = payment.Total(subTotal);
-        double total = subTotal + tax;
-
-        Console.WriteLine($"\nYour total (with tax) is: {total:C2}");
+        Console.WriteLine($"\nYour total (including tax) is: {total:C2}");
         Console.WriteLine("Select payment method (cash/check/card):");
         string paymentMethod = Console.ReadLine().ToLower();
 
-       
-    }
+        switch (paymentMethod)
+        {
+            case "cash":
+                Console.WriteLine("Enter amount tendered:");
+                double amountTendered = Convert.ToDouble(Console.ReadLine());
+                double change = payment.CashPayment(total, amountTendered);
+                if (change >= 0)
+                {
+                    Payment.Receipt(subTotal, total);
+                }
+                break;
 
-    
-}
+            case "check":
+                payment.CheckPayment(total);
+                Payment.Receipt(subTotal, total);
+                break;
 
-// Main program class
-class Program
-{
-    static void Main(string[] args)
-    {
-        Menu cafeMenu = new Menu();  
-        OrderManager orderManager = new OrderManager(cafeMenu); 
+            case "card":
+                payment.CreditCardPayment(total);
+                Payment.Receipt(subTotal, total);
+                break;
 
-        cafeMenu.DisplayMenu();  
-        orderManager.TakeOrder();  
+            default:
+                Console.WriteLine("Invalid payment method selected. Please try again.");
+                ProcessPayment();
+                break;
+        }
     }
 }
 
